@@ -53,9 +53,6 @@ void EMSTProfiler::load(const char* inFile, int verbose = 0) {
   profile->GetXaxis()->SetTitle("ECAL Layer Number");
   profile->GetYaxis()->SetTitle("Average Energy Deposited In Each Layer [MeV]");
   profile->Draw();
-//  amplpraph_->SetTitle("");
-//  amplgraph_->GetXaxis()->SetTitle("ECAL Layer Number");
-//  amplgraph_->GetYaxis()->SetTitle("Average Energy Deposited In Each Layer [MeV]");
   c->Print(pdfFileName);
 }
 
