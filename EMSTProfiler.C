@@ -116,3 +116,4 @@ int EMSTProfiler::getCharIndex(const char* Charray, char Char, int stopNumber = 
     return 0;
   }
 }
+//newline!
